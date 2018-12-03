@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-
   root 'static_pages#home'
   # 回りくどくなるので下のように名前を意義する。
   get   '/help', to: 'static_pages#help'
